@@ -1,10 +1,9 @@
 * {
     font-family: Montserrat, cursive;
-    ;
 }
 
 body {
-    background-color: f1fbff;
+    background-color: azure;
 
 }
 
@@ -203,6 +202,10 @@ h2{background-color: rgba(255, 0, 0, 0.363);}
       left: 0%;
     }
   }
+
+
+
+
 /*redimensionare corecta pe ecrane*/
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -215,7 +218,7 @@ h2{background-color: rgba(255, 0, 0, 0.363);}
         line-height: 1.6;
         font-size: 12px;
     }
-}
+  }
 
 @media only screen and (max-width: 767px) {
     .navbar-nav {
@@ -226,16 +229,15 @@ h2{background-color: rgba(255, 0, 0, 0.363);}
         bottom: 125px;
     }
 
-    .carousel-caption h5 {
-        font-size: 17px;
-        ;
-    }
+    .carousel-caption .h5{
+      font-size: 17;
+  }
 
-    .carousel-caption a {
+    .carousel-caption a{
         padding: 10px 15px;
     }
 
-    .carousel-caption p {
+    .carousel-caption p{
         width: 100%;
         line-height: 1.6;
         font-size: 12px;
